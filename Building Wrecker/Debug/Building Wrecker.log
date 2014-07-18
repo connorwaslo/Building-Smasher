@@ -1,0 +1,26 @@
+﻿Build started 7/17/2014 5:54:53 PM.
+     1>Project "C:\Users\Connor\Coding\C++\Games\Building Wrecker\Building Wrecker\Building Wrecker.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SFML\Box2D_v2.3.0\Box2D\Box2D /I"C:\SFML\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Main.cpp
+         Application.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Connor\Coding\C++\Games\Building Wrecker\Debug\Building Wrecker.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SFML\Box2D_v2.3.0\Box2D\Build\Lib /LIBPATH:"C:\SFML\SFML-2.1\Libs\Debug" Box2D.lib "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Connor\Coding\C++\Games\Building Wrecker\Debug\Building Wrecker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Connor\Coding\C++\Games\Building Wrecker\Debug\Building Wrecker.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Block.obj
+         Debug\Cube.obj
+         Debug\SmallCube.obj
+         Debug\Barrier.obj
+         Debug\Main.obj
+     1>Application.obj : error LNK2019: unresolved external symbol __imp__glColor4f@16 referenced in function "public: virtual void __thiscall DebugRenderer::DrawSolidPolygon(struct b2Vec2 const *,int,struct b2Color const &)" (?DrawSolidPolygon@DebugRenderer@@UAEXPBUb2Vec2@@HABUb2Color@@@Z)
+     1>Application.obj : error LNK2019: unresolved external symbol __imp__glDrawArrays@12 referenced in function "public: virtual void __thiscall DebugRenderer::DrawSolidPolygon(struct b2Vec2 const *,int,struct b2Color const &)" (?DrawSolidPolygon@DebugRenderer@@UAEXPBUb2Vec2@@HABUb2Color@@@Z)
+     1>Application.obj : error LNK2019: unresolved external symbol __imp__glEnableClientState@4 referenced in function "public: virtual void __thiscall DebugRenderer::DrawSolidPolygon(struct b2Vec2 const *,int,struct b2Color const &)" (?DrawSolidPolygon@DebugRenderer@@UAEXPBUb2Vec2@@HABUb2Color@@@Z)
+     1>Application.obj : error LNK2019: unresolved external symbol __imp__glLineWidth@4 referenced in function "public: virtual void __thiscall DebugRenderer::DrawSolidPolygon(struct b2Vec2 const *,int,struct b2Color const &)" (?DrawSolidPolygon@DebugRenderer@@UAEXPBUb2Vec2@@HABUb2Color@@@Z)
+     1>Application.obj : error LNK2019: unresolved external symbol __imp__glVertexPointer@16 referenced in function "public: virtual void __thiscall DebugRenderer::DrawSolidPolygon(struct b2Vec2 const *,int,struct b2Color const &)" (?DrawSolidPolygon@DebugRenderer@@UAEXPBUb2Vec2@@HABUb2Color@@@Z)
+     1>C:\Users\Connor\Coding\C++\Games\Building Wrecker\Debug\Building Wrecker.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "C:\Users\Connor\Coding\C++\Games\Building Wrecker\Building Wrecker\Building Wrecker.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.77
